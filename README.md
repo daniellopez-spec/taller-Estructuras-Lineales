@@ -33,7 +33,35 @@ Luego se generan 20 numeros aleatorios entre 0 y 999 usando random.nextInt(1000)
 Cada numero se envia al metodo invertir() el cual toma los digitos del numero y los reorganiza en orden inverso, por ejemplo si el numero es 123, el metodo devolvera el 321 y se guardara en el arreglo invertidos.
 Finalmente el programa imprime en la consola los numeros originales y luego los numeros ya invertidos para poder comparar los resultados.
 
+Main:
+Todos estos ejercicios se ejecutan desde el método main, que es el punto de inicio del programa. Dentro de este método se llaman los otros métodos (numeros_primos, numeros_pares, factoriales, mayor_menor e invertir_arreglo) para que cada ejercicio se ejecute y muestre su resultado en la consola.
+
 - Gestor ArrayList:
+
+Ejercicio#6:
+En este ejercicio se trabaja con un ArrayList para guardar numeros enteros, por lo tanto primero creamos una lista vacia llamada lista.
+Luego el programa empezara a generar numeros aleatorios entre -10 y 10 usando random.nextInt(21) - 10, cada numero que se genera se agrega a la lista con lista.add(num).
+Este caso se repite dentro de un ciclo do-while hasta que aparezca el numero 10, y en este momento el ciclo se detiene.
+Despues de tener todos los numeros en la lista, se calcula la suma recorriendo la lista con un for y acumulando los valores en una variable y luego se calcula la media, dividiendo la suma entre el tamaño de kla lista usando lista.size().
+Al finalizar el programa muestra en la consola la lista completa, la suma de todos los numeros y la media.
+
+Ejercicio#7:
+Para este ejercicio utilizamos un ArrayList para trabajar la insercion y la eliminacion de elementos.
+Primero se crea una lista vacia y se llena con los primeros 20 numeros pares, utilizando un ciclo for que multiplica cada numero por 2.
+Despues se mostrara la lista inicial y se utiliza un Scanner para que el usuario ingrese un numero desde el teclado.
+El programa busca la posicion correcta donde debe ir ese numero dentro de la lista para mantener el orden, usando un ciclo while. Una vez encontrada la posicion el numero se insertara en una lista con lista.add(pos, n).
+Y finalizando se imprimira la lista final despues de la eliminacion.
+
+Ejercicio#8:
+Para este ejercicio se debe analizar cuantas veces aparece cada numero dentro de una lista.
+Primero cramos una ArrayList y se llena con 100 numeros aleatorios entre 1 y 20, luego el programa revisa cada numero del 1 al 20 para cada uno, recorre toda la lista contando cuantas veces aparece ese valor. Ese conteo se guarda en una variable llamada cont.
+Se imprime en la consola cuantas veces aparece el numero y mientras se hace el conteo, el programa tambien guarda cual es el numero que mas se repite, al final se mostrara cual fue el numero mas frecuente dentro de la lista.
+
+Ejercicio#9:
+En este ejercicio se trabaja con ordenamiento y separacion de numeros.
+
+
+
 
 
 
