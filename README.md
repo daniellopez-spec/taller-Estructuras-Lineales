@@ -2,8 +2,9 @@
 Proyecto realizado para la materia de estructura de datos
 Estudiante: Daniel Estiven Lopez Velasco
 Semestre: 4-Desarrollo de software
-Explicacion trabajos - Gestor Arreglos.
+Explicacion trabajos 
 
+- Gestor Arreglos.
 Ejercicio#1:
 En este primer ejercicio se quiere demostrar los 10 primeros numeros primos, para eso se debe crear un arreglo llamado numeros_primos donde ya estan almacenados esos valores: 2,3,5,7,11,13,17,19,23,29.
 Despues utilizamos un ciclo for para recorrer todo el arreglo, por lo tanto cada vez que el ciclo pasa por un elemento, toma el numero y lo imprime en la consola usando System.out.print.
@@ -21,8 +22,17 @@ Luego cada numero generado se envia al metodo factorial(), que calcula su factor
 Al final el programa lo que hara es imprimir los numeros que se generan y luego los factoriales correspondientes.
 
 Ejercicio#4:
-En este ejercicio el objetivo sera encontrar un numero mayor y menor dentro de un conjunto de numeros, por lo tanto creamos un arreglo con 25 posiciones donde se guardaran numeros aleatorios entre -50 y 50
+En este ejercicio el objetivo sera encontrar un numero mayor y menor dentro de un conjunto de numeros, por lo tanto creamos un arreglo con 25 posiciones donde se guardaran numeros aleatorios entre -50 y 50.
+Mientras se generan los numeros, el programa va comparando cada uno de los valores con dos variables llamadas mayor y menor, por lo tanto si numero generado es mas grande que el valor actual de mayor, entonces se actualiza la variable y si es mas pequeño que menor tambien se actualiza.
+Al final del proceso se imprime en la consola el numero mayor y menor encontrados dentro del arreglo.
 
+Ejercicio#5:
+En el ultimo ejercicio de este segmento se trabaja con la inversion de numeros. Primero se crean dos arreglos el cual uno es numeros, donde se guardaran numeros aleatorios y otro llamado invertidos, donde se guardaran esos mismos numeros pero con sus digitos invertidos.
+Luego se generan 20 numeros aleatorios entre 0 y 999 usando random.nextInt(1000) y se guardan en el arreglo mine.
+Cada numero se envia al metodo invertir() el cual toma los digitos del numero y los reorganiza en orden inverso, por ejemplo si el numero es 123, el metodo devolvera el 321 y se guardara en el arreglo invertidos.
+Finalmente el programa imprime en la consola los numeros originales y luego los numeros ya invertidos para poder comparar los resultados.
+
+- Gestor ArrayList:
 
 
 
