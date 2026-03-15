@@ -5,6 +5,7 @@ Semestre: 4-Desarrollo de software
 Explicacion trabajos 
 
 - Gestor Arreglos.
+  
 Ejercicio#1:
 En este primer ejercicio se quiere demostrar los 10 primeros numeros primos, para eso se debe crear un arreglo llamado numeros_primos donde ya estan almacenados esos valores: 2,3,5,7,11,13,17,19,23,29.
 Despues utilizamos un ciclo for para recorrer todo el arreglo, por lo tanto cada vez que el ciclo pasa por un elemento, toma el numero y lo imprime en la consola usando System.out.print.
